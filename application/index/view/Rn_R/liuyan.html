@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>留言板</title>
+</head>
+<body>
+<center>
+    <div style="border: 1px solid mediumseagreen; margin-top: 20px; width: 400px; height: 300px;">
+        <form action="{:url('myFilter')}" method="post">
+            <h1>留言板</h1>
+            <p>
+                <input type="text" name="username" id="username">
+            </p>
+            <p>
+                <textarea name="content" id="content" cols="30" rows="10"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="提交">
+            </p>
+        </form>
+    </div>
+</center>
+</body>
+</html>

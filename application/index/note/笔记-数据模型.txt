@@ -1,0 +1,44 @@
+学习内容：数据模型
+1.模型model
+
+
+
+2.新建数据模型
+    1.手动新建
+
+
+    2.命令新建
+
+
+
+3.获取器
+    在数据模型中写
+    public function getSexAttr($value){
+            switch ($value){
+                case "0":
+                    return "女";
+                    break;
+                case "1":
+                    return "男";
+                    break;
+                default:
+                    return "未知";
+            }
+        }
+
+    在控制器中写
+
+
+
+4.修改器
+
+
+
+
+5.自动完成
+       * 更新和插入都会执行操作
+       * 所以最好单独使用
+
+
+
+6.软删除

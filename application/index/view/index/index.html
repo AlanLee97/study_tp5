@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <table width="800px" align="center" border="1">
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>PASS</th>
+        </tr>
+        {volist name="data" id="value"}
+            <tr>
+                <td>{$value.id}</td>
+                <td>{$value.username}</td>
+                <td>{$value.password}</td>
+            </tr>
+        {/volist}
+
+    </table>
+</body>
+</html>
